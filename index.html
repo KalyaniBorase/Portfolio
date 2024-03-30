@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-toggle" id="navToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="left">Kalyani's Portfolio</div>
+            <div class="right"><ul class="nav-list" id="navList">
+                <a href=""><li>Home</a></li>
+                <a href="#about"><li>About</a></li>
+                <a href="#Portfolio"><li>Portfolio</a></li>
+                <a href="#contact"><li>Contact us</a></li>
+            </ul></div>    
+        </nav>
+    
+    <main>
+        <section class="firstsection">
+            <div class="leftSection"> Hello, My name is <span class="color">Kalyani Borase</span> , I am a Passionate Web Developer
+                <span id="element"></span>
+                <div class="button">
+                <button  id="downloadbutton">Download resume</button>
+            </div>
+            </div>
+            <div class="rightSection"> <img src="devloper.webp" alt=""></div>
+
+        </section>
+    </main>
+</header>
+<a id="about">
+      <section class="Secondsection">
+        
+        <h1 class="about">About me</h1>
+        
+        <div class="ableft"><img class="about_img" src="about image.jpg" alt="">
+        </div>
+        <div class="abright"><p> I am masters in computer science with MCA, From SNDT Women university Mumbai. I have deep interested on Web Development also good Knwonledge of Java And SQL language. I have build 2 or more web project and host on my github account below in My Portfolio Section, I have give the link. 
+            Also I have achive 5 star credit reating in Java and 3 star credit reating in SQL provide by HacekRank also SQL(intermidiate) certificate provide by HacekRank.
+            I am recently Programming Educator from Korus Infotech Nashik.
+        </p></div>
+    
+      </section>
+    </a>
+      <a id="Portfolio">
+    <section>
+        <div class="Portfolio"><h1>My Portfolio</h1></div>
+            <div class="Pright">
+                <div class="image-container">
+        <img src="weather_app.png" alt="Clickable Image" id="weather_app">
+        <div class="hover-message">Click Me</div>
+    </div>
+        <div class="image-container">
+            <img src="korus_infotech.png" alt="Clickable Image" id="korus_info">
+            <div class="hover-message">Click Me</div>
+        </div>
+</div>
+    </section>
+</a>
+<a id="contact">
+<footer>
+    <section class="footer">
+        <div class="contact">
+        <i class="fa fa-phone" aria-hidden="true"></i>
+        <h3>9067271490</h3>
+    </div>
+    <div class="email">
+        <i class="fa fa-envelope" aria-hidden="true"></i>
+        <h3>borasek694@gmail.com</h3>
+    </div>
+    
+    </section>
+    <div class="url">
+        <div class="linkedin">
+        <a href="https://www.linkedin.com/in/kalyani-borase-708213244"><i class="fa-brands fa-linkedin-in"></i></a></i></div>
+        <div class="hacker">
+        <a href="https://www.hackerrank.com/profile/borasek694"><i class="fa-brands fa-hackerrank"></i></a></i></div>
+        <div class="github">
+        <a href="https://github.com/KalyaniBorase"><i class="fa-brands fa-github"></i></a></i></div>
+    </div>
+</footer>
+</a>
+  <!-- Load library from the CDN -->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', '&amp; Programming Educator.'],
+      typeSpeed: 50,
+    });
+  </script>
+  <script src="script.js"></script>
+</body>
+
+
+</html>
