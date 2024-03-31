@@ -9,7 +9,7 @@ navToggle.addEventListener('click', () => {
 });
 
 document.getElementById('downloadbutton').addEventListener('click',function(){
-    window.location.href='https://drive.google.com/file/d/1P22M78bI4nPL5m033lfYEIeqNI4xPgUy/view?usp=drivesdk';
+    window.location.href='https://drive.google.com/file/d/1eemP6KyA1LBxaj63vOk7nme6ZJrTqu64/view?usp=drivesdk';
 });
 document.getElementById('weather_app').addEventListener('click',function(){
     window.location.href='https://kalyaniborase.github.io/weather_app/';
